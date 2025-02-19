@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #FCFFE8;
+}
+.main-content
+{
+    min-height: 100vh;
+}
+h1
+{
+    background-color: #00062b;
+    color: #FCFFE8;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+}
+.option
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option img
+{
+    height: 135px;
+    width: 135px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.options
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+.option:hover
+{
+    /*opacity: 0.3;*/
+    cursor: pointer;
+    background-color:#00062b;
+}
+.score-board
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    display: flex;
+    font-size: 2rem;
+    gap: 7rem;
+    padding-left: 4rem;
+}
+.score
+{
+    text-align: center;
+}
+#user-score, #computer-score
+{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.msg-container
+{
+    text-align: center;
+    margin: 1rem;
+}
+#msg
+{
+    /*text-align: center;*/
+    background-color: #00062b;
+    color: #FCFFE8;
+    font-size: 1.45rem;
+    /*to avoid a block on long line*/
+    /*display: inline; */
+    padding: 0.45rem;
+    border-radius: 0.5rem;
+}
+#images-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #FCFFE8;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+#verticalDivider
+{
+    /*width: 0.07rem;*/
+    /*height: 49vmin;*/
+    /*background-color: #00062b;*/
+    /*margin: 0 auto;*/
+    /*transform: rotate(180deg);*/
+    /*position: fixed;*/
+/*    border-left: 0.1rem solid #00062b;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    margin: 0.5rem;*/
+    width: 0.07rem;
+    height: 49vmin;
+    background-color: #00062b;
+
+
+}
+
+.imageSetting
+{
+    height: 35vmin;
+    width: 35vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.imageSetting img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+#reset
+{
+    text-align: center;
+    margin: 0.5rem;
+}
+#reset-button
+{
+    /*text-align: center;*/
+    background-color: #00062b;
+    color: #FCFFE8;
+    font-size: 1.45rem;
+    /*display: inline;*/
+    padding: 0.45rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease, background-color 0.3s ease;
+}
+#reset-button:hover
+{
+
+    cursor: pointer;
+    background-color: #1a1f47;
+}
+#reset-button:active
+{
+    transform: scale(0.95);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}

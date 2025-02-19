@@ -44,7 +44,6 @@ h1
 }
 .option:hover
 {
-    /*opacity: 0.3;*/
     cursor: pointer;
     background-color:#00062b;
 }
@@ -74,12 +73,9 @@ h1
 }
 #msg
 {
-    /*text-align: center;*/
     background-color: #00062b;
     color: #FCFFE8;
     font-size: 1.45rem;
-    /*to avoid a block on long line*/
-    /*display: inline; */
     padding: 0.45rem;
     border-radius: 0.5rem;
 }
@@ -94,21 +90,9 @@ h1
 }
 #verticalDivider
 {
-    /*width: 0.07rem;*/
-    /*height: 49vmin;*/
-    /*background-color: #00062b;*/
-    /*margin: 0 auto;*/
-    /*transform: rotate(180deg);*/
-    /*position: fixed;*/
-/*    border-left: 0.1rem solid #00062b;*/
-/*    position: absolute;*/
-/*    left: 50%;*/
-/*    margin: 0.5rem;*/
     width: 0.07rem;
     height: 49vmin;
     background-color: #00062b;
-
-
 }
 
 .imageSetting
@@ -134,11 +118,10 @@ h1
 }
 #reset-button
 {
-    /*text-align: center;*/
+    
     background-color: #00062b;
     color: #FCFFE8;
     font-size: 1.45rem;
-    /*display: inline;*/
     padding: 0.45rem;
     border-radius: 0.5rem;
     border-style: solid;
